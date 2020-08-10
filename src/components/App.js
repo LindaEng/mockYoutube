@@ -3,7 +3,7 @@ import SearchBar from './SearchBar'
 import youtube from '../apis/youtube'
 import VideoList from './VideoList'
 
-// const KEY = 'AIzaSyDe7lk9Mg5AsmyiHZ_ygv_1YVHvProJuwo'
+const KEY = process.env.KEY
 
 class App extends React.Component {
   state = {
